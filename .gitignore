@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# TensorFlow / Keras
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Data (large files — CSV cached files are committed; raw downloads are not)
+# Uncomment below if you do NOT want to commit cached price data:
+# data/*.csv
+
+# Results (keep RESULTS.md but ignore large binary outputs)
+results/*.png
+results/*.pdf
+results/*.csv
+!results/RESULTS.md
